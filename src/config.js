@@ -1,4 +1,7 @@
 const config = {
+  STRIPE_KEY:
+    "pk_test_51HxInxEkEwGZrLjf7JYf4qFvRQa1FwKaUcrnXi7hrEYFVIsNaNxFKvE2RTWxwjtPDsKbaWAhaPwCr6pNoEMU3rFJ00Jbb4CnhN",
+  MAX_ATTACHMENT_SIZE: 5000000,
   s3: {
     REGION: "us-east-2",
     BUCKET: "notes-api-file-uploads",
